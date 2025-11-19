@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer Profile Page</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Dancing+Script:wght@400..700&family=Moon+Dance&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <!-- Adding favicon -->
+    <link rel="icon" href="../Images/find my.png">
+
+  <!-- Adding navigation & logo -->
+    <img class="logo" src="../Images/find my.png" alt="Find My logo">
+  <div>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="Index.html"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="About.html"><i class="fa-solid fa-circle-info"></i> About</a>
+        </li>
+        <li>
+          <a href="contacts.html"><i class="fa-solid fa-address-book"></i> Contacts</a>
+        </li>
+        <li>
+          <a href="Services.html"><i class="fa-solid fa-briefcase"></i> Services</a>
+        </li>
+        <li>
+          <a href="Profile.html"><i class="fa-solid fa-camera"></i> Photographers</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+</header>
+<body>
+    <main>
+       <!-- Heading -->
+<div class="PhProfile">
+  <h1>Photographer Profile</h1>
+</div>
+
+<!-- Profile Section -->
+<div class="Profile-Picture">
+  <div class="profile-card">
+    <img src="../Images/C.Profile Pic.jpg" alt="Profile Pic">
+    <div class="profile-name">Lesego Chadwin Mamashela</div>
+    <ul class="social-icons">
+      <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+    </ul>
+  </div>
+</div>
+      
+      <!-- Adding recent work -->
+      <h2>Recent Work Done</h2>
+      <div class="Image-Section">
+        <div class="Image-Group">
+          <div class="Image1">
+          <img src="../Images/Architecture.jpg" alt="Photo of church" width="150">
+          <div class="description">Architecture</div>
+        </div>
+          <div class="Image2">
+          <img src="../Images/Landscape photography.webp" alt="Landscape" width="150">
+          <div class="description">Landscape</div>
+        </div>
+        <div class="Image3">
+          <img src="../Images/Photography of people.jpg" alt="Photography of people" width="150">
+          <div class="description"> people</div>
+        </div>
+      </div>      
+
+<!-- Testimonial -->
+<section class="Testimonial">
+  <h2>Testimonial</h2>
+  <p><em>
+    I recently booked Lesego to work as Photographer for my child's graduation. 
+    Not only is he extremely professional, his attitude to his craft is extremely impressive. 
+    10/10 experience (Rethabile54)
+  </em></p>
+</section>
+
+<!-- Booking Form -->
+<section class="Booking">
+  <h2>Book a Session</h2>
+  <form id="bookingForm">
+    <div class="input-group">
+    <label for="fullName">Full Name:</label>
+    <input type="text" name="fullName" id="fullName" placeholder="Enter Your Full Name"><div class="error-message" id="fullNameError">Please enter a valid name (min. 3 characters)</div>
+  </div>
+
+  <div class="input-group">
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+    <div class="error-message" id="emailError">Please enter a valid email</div>
+  </div>
+
+  <div class="input-group">
+    <label for="bdate">Booking Date:</label>
+    <input type="date" name="bdate" id="bdate"><>
+    <div class="error-message" id="dateError">Please select a valid date</div>
+  </div>
+
+    <button type="submit" class="SubmitBtn">Submit Booking</button>
+
+    <div class="success-message" id="successMessage">Your booking has been booked! We'll contact you soon</div>
+  </form>
+</section><hr>
+      <!--Adding footer  -->
+  <footer class="">
+      <p><i>FMP&copy;ST10498917</i></p>
+  </footer>
+  <!-- External JavaScript Link -->
+  <script src="../JavaScript/Script.js"></script>
+</body>
+</html>

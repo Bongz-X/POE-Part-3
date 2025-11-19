@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Page</title>
+     <link rel="stylesheet" href="../CSS/Style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Dancing+Script:wght@400..700&family=Moon+Dance&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <!-- Adding favicon -->
+    <link rel="icon" href="../Images/find my.png">
+
+  <!-- Adding navigation & logo -->
+    <img class="logo" src="../Images/find my.png" alt="Find My logo">
+  <div>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="Index.html"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="About.html"><i class="fa-solid fa-circle-info"></i> About</a>
+        </li>
+        <li>
+          <a href="contacts.html"><i class="fa-solid fa-address-book"></i> Contacts</a>
+        </li>
+        <li>
+          <a href="Services.html"><i class="fa-solid fa-briefcase"></i> Services</a>
+        </li>
+        <li>
+          <a href="Profile.html"><i class="fa-solid fa-camera"></i> Photographers</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+</header>
+<body> 
+    <main>
+    <!-- Adding heading  -->
+    <h1><em><i> Our Services</i></em></h1><br>
+   
+    <!-- Adding images & Caption -->
+    <section class="Image-Section">
+        <div class="Category">
+        <h2>Nature photography</h2>
+        <div class="Image-Group">
+        <div class="Image1">
+            <img src="../Images/download.jfif" alt=" Landscape image" width="150">
+            <div class="description">Landscape</div>
+        </div>
+        <div class="Image1"> 
+            <img src="../Images/download (1).jfif" alt="Leopard hunting" width="150">
+            <div class="description">Wildlife</div>
+         </div>
+        <div class="Image1"> 
+            <img src="../Images/download (2).jfif" alt="Picture of the stars" width="100">
+            <div class="description">Astrophotography</div>
+        </div>
+        </div>
+        </div>
+         
+        <div class="Category">
+         <h2>Human photography</h2>
+         <div class="Image-Group">
+         <div class="Image2">
+            <img src="../Images/461949309_894087945517453_4746116081913554885_n.jpg" alt="Portraits" width="150">
+            <div class="description">Portraits</div>
+        </div>
+        <div class="Image2">
+            <img src="../Images/event.webp" alt="Events" width="150">
+            <div class="description">Event Photography</div>
+        </div>
+        <div class="Image2">
+            <img src="../Images/sport.webp" alt="Sports" width="150">
+            <div class="description">Sports Photography</div>
+        </div>
+        </div>
+        </div>
+
+        <div class="Category">
+        <h2>Man-Made Objects</h2>
+        <div class="Image-Group">
+        <div class="Image3">
+            <img src="../Images/food (1).webp" alt="Food" width="150">
+            <div class="description">Food photography</div>
+        </div>
+        <div class="Image3">
+            <img src="../Images/arch 2.jpg" alt="Architecture" width="150">
+            <div class="description">Architectural Photography</div>
+        </div>
+        <div class="Image3">
+            <img src="../Images/still life.webp" alt="Still life" width="150">
+            <div class="description">Still-Life Photography</div>
+        </div>
+        </div>
+        </div>
+
+        <div class="Category">
+        <h2>Abstract Photography</h2>
+        <div class="Image-Group">
+        <div class="Image4">
+            <img src="../Images/Abstract2.jpg" alt="lighting photography" width="150">
+            <div class="description">lighting Photography</div>
+        </div>
+        <div class="Image4">
+            <img src="../Images/abstract3.webp" alt="Conceptual photography" width="150">
+            <div class="description">Conceptual Photography</div>
+        </div>
+        <div class="Image4">
+            <img src="../Images/abstract4.webp" alt="Water Photography" width="150">
+            <div class="description">Water Photography</div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Search Functionality -->
+    <div class="find-photographer-section">
+    <p>Find Your Photographer</p>
+    <!--Input  -->
+    <input type="text" id="findPhotographerInput" class="fyp-search-input" placeholder="Search name or style of photography">
+    <!-- search button -->
+    <button id="findPhotographerBttn" class="fyp-search-bttn">Search</button>
+    <!-- Feedback message -->
+     <p id="findPhotographerMsg" class="fyp-search-msg"></p>
+    <a href="Profile.html"></a>
+    </div>
+
+    <!-- Adding footer -->
+    <footer>
+        <p><i>FMP&copy;ST10498917</i></p>
+    </footer>
+    <!-- External JavaScript Link -->
+  <script src="../JavaScript/Script.js"></script>
+</body>
+</html>

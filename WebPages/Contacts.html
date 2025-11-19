@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts Page</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Dancing+Script:wght@400..700&family=Moon+Dance&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<header>
+    <!-- Adding favicon -->
+    <link rel="icon" href="../Images/find my.png">
+
+  <!-- Adding navigation & logo -->
+    <img class="logo" src="../Images/find my.png" alt="Find My logo">
+  <div>
+    <nav class="navbar">
+      <ul>
+        <li>
+          <a href="Index.html"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="About.html"><i class="fa-solid fa-circle-info"></i> About</a>
+        </li>
+        <li>
+          <a href="contacts.html"><i class="fa-solid fa-address-book"></i> Contacts</a>
+        </li>
+        <li>
+          <a href="Services.html"><i class="fa-solid fa-briefcase"></i> Services</a>
+        </li>
+        <li>
+          <a href="Profile.html"><i class="fa-solid fa-camera"></i> Photographers</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+</header>
+<body>
+  <main>
+    <!-- Adding Message board -->
+    <div class="messageBoard">
+    <h3>Contact us on here</h3><br>
+
+    <div class="msg-error"></div>
+
+    <form action="#" method="post" class="messageBoard form">
+    <label for="Email">Enter email:</label>
+    <input type="text" name="Email" id="Email" placeholder="Enter Email..."><br>
+
+    <label for="phoneNo">Enter Phone No:</label>
+    <input type="text" name="phoneNo" id="phoneNo" placeholder="Enter Phone No..."><br>
+
+    <label for="Subject">Subject</label>
+    <input type="text" name="subject" id="subject" placeholder="Enter Subject"><br>
+
+    <label for="eMessage">Message</label>
+    <textarea name="eMessage" id="eMessage" cols="30" rows="10" placeholder="Enter Message..."></textarea><br>
+
+    <button type="submit" class="submitButton">Submit</button>
+    </form>
+    </div><hr>
+  </main>
+
+  <!-- Adding footer & Address -->
+  <footer>
+    <address class="Address">
+      <div class="addressDetails">
+      <h2><i class="fa-solid fa-location-dot"></i>Address</h2>
+      <p>785 We Are Rocking Ave</p>
+      <p>Roodepoort</p>
+      <p>Johannesburg</p>
+      <p>1709</p>
+      </div>  
+    
+    <!-- Contact details -->
+     <div class="contactDetails">
+      <h2><i class="fa-solid fa-address-book"></i>Contact Details</h2>
+      <p><i class="fa-solid fa-square-phone"></i>Phone No: +27 87 825 7897</p>
+      <p><i class="fa-solid fa-envelope"></i>Email:Info@FindMyPhotographer.co.za</p>
+      <p><i class="fa-brands fa-facebook"></i>Facebook: Find My Photographer</p>
+      <p><i class="fa-brands fa-instagram"></i>Instagram: @FindMyPhotographer</p>
+      <p><i class="fa-brands fa-twitter"></i>Twitter: @FindMyPhoto_25</p>
+      </div>
+     </address>
+     <p class="FMP"><i>FMP&copy;ST10498917</i></p>
+  </footer>
+  <!-- External JavaScript Link -->
+  <script src="../JavaScript/Script.js"></script>
+</body>
+
+</html>
