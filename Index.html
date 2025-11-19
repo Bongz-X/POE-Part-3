@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="../CSS/Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Dancing+Script:wght@400..700&family=Moon+Dance&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <!-- Adding favicon -->
+    <link rel="icon" href="../Images/find my.png">
+
+  <!-- Adding navigation & logo -->
+    <img class="logo" src="../Images/find my.png" alt="Find My logo">
+  <div class="navbar">
+    <nav>
+      <ul>
+        <li>
+          <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+        </li>
+        <li>
+          <a href="About.html"><i class="fa-solid fa-circle-info"></i> About</a>
+        </li>
+        <li>
+          <a href="contacts.html"><i class="fa-solid fa-address-book"></i> Contacts</a>
+        </li>
+        <li>
+          <a href="Services.html"><i class="fa-solid fa-briefcase"></i> Services</a>
+        </li>
+        <li>
+          <a href="Profile.html"><i class="fa-solid fa-camera"></i> Photographers</a>
+        </li>
+      </ul>
+    </nav>
+    <hr>
+  </div>
+    </header>
+    <main>
+    <!-- Adding heading & short description-->
+     <div class="heading-wrapper">
+    <h1 id="title1" class="visible"><em><i>Choose how you Capture the moments!</i></em></h1><br>
+    <h2 id="title2" class="hidden"><em><b>A style for every moment</em></b></h2>
+    </div><br>
+
+    <!-- Image section with slide-wrapper and links to services page -->
+    <section class="slider-wrapper">
+      <div class="Image-Section">
+      
+        <div class="slide">
+        <a href="Services.html">
+        <img src="../Images/w=650,h=433.avif" alt="Nature photography" id="img__Nature" width="180">
+        <div class="description">Nature Photography</div>
+        </a>
+      </div>
+
+     <div class="slide">
+        <a href="Services.html">
+        <img src="../Images/eiffel-tower-during-daytime.jpg" alt="Man-Made Objects" id="img__ManMade" width="180" height="140">
+        <div class="description">Architectural Photography</div>
+        </a>
+      </div>
+
+     <div class="slide">
+        <a href="Services.html">
+        <img src="../Images/longlove.jpg" alt="Human Photography" id="img__Humans" width="180">
+        <div class="description">Human Photography</div>
+        </a>
+      </div>
+
+      <div class="slide">
+        <a href="Services.html">
+        <img src="../Images/Water drop.jfif" alt="Abstract Photography" id="img__Abstract" width="180">
+        <div class="description">Abstract Photography</div>
+        </a>
+      </div>
+      
+      <!-- Next & Previous Buttons -->
+       <a class="previous" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div><br>
+
+      <!-- The Dot Circles -->
+      <div class="dotCircles">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+    </section>
+
+    <!-- Adding Login Section-->
+    <section class="Login-Section">
+      <div class="error"></div>
+      <h2>Sign In to Access Your Account</h2>
+      <form class="Login-Form" action="Services.html" method="get">
+        <label for="Email"> Email:</label>
+        <Input type="email" id="Email" name="Email" placeholder="Enter your email" required><br>
+        
+        <label for="Password"> Password:</label>
+        <input type="password" id="Password" name="Password" placeholder="Enter your password" required><br>
+
+    <div class="button-section">
+        <button type="submit" class="SignIn">Sign In</button>
+
+    <a href="Contacts.html" class="SignUp">Sign Up</a>
+    </div>
+    </form>
+    </section>
+ </main><hr>
+
+ <!-- Adding footer -->
+ <footer>
+  <p><i>FMP&copy;ST10498917</i></p>
+ </footer>
+ <!-- External JavaScript Link -->
+  <script src="../JavaScript/Script.js"></script>
+ </body>
+
+</html>
+
